@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <title>pug</title>
+    </head>
+    <body>
+        <header class="menu">
+            <ul class="menu-left">
+                <li>О Магазине</li>
+                <li>Мы помогаем</li>
+                <li>Дисконектная информация</li>
+                <li>Статьи</li>
+                <li>Доставка и оплата</li>
+            </ul>
+
+            <ul class="registr">
+                <li class="enter">
+                    Вход
+                </li>
+                <li class="point"></li>
+                <li class="registration">
+                    Регистрация
+                </li>
+            </ul>
+        </header>
+
+<div class="main-container">
+        <div class="container">
+            <!-- search -->
+                <div class="logo">
+                    <img src="./img/Dog.png" alt="">
+                    <div class="name">
+                        <div class="logo-name">
+                            PLU
+                        </div>
+                        <span class="inscription">Shop&nbsp.&nbsp<span class="ru">ru</span></span>
+                    </div>
+                </div>
+
+                <div class="search">
+                    <input type="text" placeholder ="hello" name="roof" value="">
+                    <i class="fas fa-search"></i>
+                </div>
+            <!-- -->
+
+    <div class="contacts">
+        <div class="phone">
+            <span class="code">8 (910)</span> 344-19-39
+            <div class="operating-time">
+                Время работы с 8:00 до 20:00
+            </div>
+        </div>
+    <div class="cart">
+        <i class="fas fa-cart-plus"></i>
+    </div>
+</div>
+        </div>
+
+<div class="container">
+    <ul class="menu-animal ">
+        <li>
+            <i class="fas fa-cat"></i>
+            <div class="cat">
+                Кошки
+            </div>
+        </li>
+        <li>
+        <i class="fas fa-dog"></i>
+            <div class="cat">
+                Собаки
+            </div>
+        </li>
+        <li>
+         <i class="fas fa-crow"></i>
+            <div class="cat">
+                Птицы
+            </div>
+        </li>
+        <li>
+        <i class="fas fa-fish"></i>
+            <div class="cat">
+                Грызуны
+            </div>
+        </li>
+        <li>
+            <i class="fab fa-mixcloud"></i>
+            <div class="cat">
+                рыба
+            </div>
+        </li>
+        <li>
+            <i class="fas fa-clinic-medical"></i>
+            <div class="cat">
+                ветклиники
+            </div>
+        </li>
+        <li>
+            <i class="fas fa-gift"></i>
+            <div class="cat">
+                Акции
+            </div>
+        </li>
+    </ul>
+</div>
+
+<!-- hard -->
+
+<div class="container">
+
+    <div class="discounts">
+        <div class="txt">
+            Скидки <span class="on">на</span><br> корм для собак
+            <p class="percent">
+                - 20%
+            </p>
+            <div class="n">
+                Обрадуй собаку<br>
+                Купи вкусняшку!!!
+            </div>
+
+            <div class="btn">Подобнее</div>
+        </div>
+            <div class="dog">
+                <img src="img\pug-1.png" alt="">
+            </div>
+    </div>
+
+    <div class="charity">
+        <h2 class="title">
+            При покупке товара на сумму более<br>
+            <span class="price">2000 руб.</span>
+        </h2>
+        <div class="oval">
+
+        </div>
+    <div class="txt">
+        <span class="percent">
+            10%
+        </span>
+        <p class="cnt">
+            от суммы отдается в<br> приют животным
+        </p>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="container">
+<div class="list">
+    <h2 class="title">
+        Популярные бренды
+        <i class="fab fa-500px"></i>
+    </h2>
+
+    <div class="catalog">
+        <div class="items">
+        <div class="item">
+
+            <!-- левая иконка -->
+            <div class="icon-l">
+                sale
+            </div>
+            <!-- Правая иконка -->
+            <div class="icons-r">
+
+                <div class="buy">
+                    <i class="fas fa-cart-plus"></i>
+                </div>
+                <div class="heart">
+                    <i class="far fa-heart"></i>
+                </div>
+
+            </div>
+
+            <!-- Картинка -->
+        <div class="img">
+            <img src="img\cns.png" alt="">
+</div>
+
+        <div class="inscription">
+            <!-- название продукта -->
+            <div class="name">DUKE`S FARM</div>
+            <!-- описаниие -->
+            <span class="info">
+                Корм для котят, утка,<br>
+                шпинат, конс.
+            </span>
+        </div>
+
+
+            <!-- контейнер цены -->
+            <div class="cont-price">
+                <!-- price -->
+                <span class="price">
+                    79 руб.
+                </span>
+                <!-- -->
+                <!-- weight -->
+                <span class="weight">
+                    0.1 кг.
+                </span>
+                <!-- -->
+            </div>
+        </div>
+<!-- -->
+<div class="item">
+
+    <!-- левая иконка -->
+    <div class="icon-l">
+        sale
+    </div>
+    <!-- Правая иконка -->
+    <div class="icons-r">
+
+        <div class="buy">
+            <i class="fas fa-cart-plus"></i>
+        </div>
+        <div class="heart">
+            <i class="far fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Картинка -->
+<div class="img">
+    <img src="img\cns.png" alt="">
+</div>
+
+<div class="inscription">
+    <!-- название продукта -->
+    <div class="name">DUKE`S FARM</div>
+    <!-- описаниие -->
+    <span class="info">
+        Корм для котят, утка,<br>
+        шпинат, конс.
+    </span>
+</div>
+
+
+    <!-- контейнер цены -->
+    <div class="cont-price">
+        <!-- price -->
+        <span class="price">
+            79 руб.
+        </span>
+        <!-- -->
+        <!-- weight -->
+        <span class="weight">
+            0.1 кг.
+        </span>
+        <!-- -->
+    </div>
+</div>
+
+
+<div class="item">
+
+    <!-- левая иконка -->
+    <div class="icon-l">
+        sale
+    </div>
+    <!-- Правая иконка -->
+    <div class="icons-r">
+        <div class="buy">
+            <i class="fas fa-cart-plus"></i>
+        </div>
+
+        <div class="heart">
+            <i class="far fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Картинка -->
+<div class="img">
+    <img src="img\cns.png" alt="">
+</div>
+
+<div class="inscription">
+    <!-- название продукта -->
+    <div class="name">DUKE`S FARM</div>
+    <!-- описаниие -->
+    <span class="info">
+        Корм для котят, утка,<br>
+        шпинат, конс.
+    </span>
+</div>
+
+
+    <!-- контейнер цены -->
+    <div class="cont-price">
+        <!-- price -->
+        <span class="price">
+            79 руб.
+        </span>
+        <!-- -->
+        <!-- weight -->
+        <span class="weight">
+            0.1 кг.
+        </span>
+        <!-- -->
+    </div>
+</div>
+
+<div class="item">
+
+    <!-- левая иконка -->
+    <div class="icon-l">
+        sale
+    </div>
+    <!-- Правая иконка -->
+    <div class="icons-r">
+        <div class="buy">
+            <i class="fas fa-cart-plus"></i>
+        </div>
+
+        <div class="heart">
+            <i class="far fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Картинка -->
+<div class="img">
+    <img src="img\cns.png" alt="">
+</div>
+
+<div class="inscription">
+    <!-- название продукта -->
+    <div class="name">DUKE`S FARM</div>
+    <!-- описаниие -->
+    <span class="info">
+        Корм для котят, утка,<br>
+        шпинат, конс.
+    </span>
+</div>
+
+
+    <!-- контейнер цены -->
+    <div class="cont-price">
+        <!-- price -->
+        <span class="price">
+            79 руб.
+        </span>
+        <!-- -->
+        <!-- weight -->
+        <span class="weight">
+            0.1 кг.
+        </span>
+        <!-- -->
+    </div>
+</div>
+
+
+<div class="item">
+
+    <!-- левая иконка -->
+    <div class="icon-l">
+        sale
+    </div>
+    <!-- Правая иконка -->
+    <div class="icons-r">
+        <div class="buy">
+            <i class="fas fa-cart-plus"></i>
+        </div>
+
+        <div class="heart">
+            <i class="far fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Картинка -->
+<div class="img">
+    <img src="img\cns.png" alt="">
+</div>
+
+<div class="inscription">
+    <!-- название продукта -->
+    <div class="name">DUKE`S FARM</div>
+    <!-- описаниие -->
+    <span class="info">
+        Корм для котят, утка,<br>
+        шпинат, конс.
+    </span>
+</div>
+
+
+    <!-- контейнер цены -->
+    <div class="cont-price">
+        <!-- price -->
+        <span class="price">
+            79 руб.
+        </span>
+        <!-- -->
+        <!-- weight -->
+        <span class="weight">
+            0.1 кг.
+        </span>
+        <!-- -->
+    </div>
+</div>
+
+
+
+<!-- Лучшие предложения -->
+<h2 class="proposals">Лучшие предложения</h2>
+<div class="item">
+
+    <!-- левая иконка -->
+    <div class="icon-l">
+        sale
+    </div>
+    <!-- Правая иконка -->
+    <div class="icons-r">
+
+        <div class="buy">
+            <i class="fas fa-cart-plus"></i>
+        </div>
+        <div class="heart">
+            <i class="far fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Картинка -->
+<div class="img">
+    <img src="img\cns.png" alt="">
+</div>
+
+<div class="inscription">
+    <!-- название продукта -->
+    <div class="name">DUKE`S FARM</div>
+    <!-- описаниие -->
+    <span class="info">
+        Корм для котят, утка,<br>
+        шпинат, конс.
+    </span>
+</div>
+
+
+    <!-- контейнер цены -->
+    <div class="cont-price">
+        <!-- price -->
+        <span class="price">
+            79 руб.
+        </span>
+        <!-- -->
+        <!-- weight -->
+        <span class="weight">
+            0.1 кг.
+        </span>
+        <!-- -->
+    </div>
+</div>
+<!-- -->
+<div class="item">
+
+    <!-- левая иконка -->
+    <div class="icon-l">
+        sale
+    </div>
+    <!-- Правая иконка -->
+    <div class="icons-r">
+
+        <div class="buy">
+            <i class="fas fa-cart-plus"></i>
+        </div>
+        <div class="heart">
+            <i class="far fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Картинка -->
+<div class="img">
+    <img src="img\cns.png" alt="">
+</div>
+
+<div class="inscription">
+    <!-- название продукта -->
+    <div class="name">DUKE`S FARM</div>
+    <!-- описаниие -->
+    <span class="info">
+        Корм для котят, утка,<br>
+        шпинат, конс.
+    </span>
+</div>
+
+
+    <!-- контейнер цены -->
+    <div class="cont-price">
+        <!-- price -->
+        <span class="price">
+            79 руб.
+        </span>
+        <!-- -->
+        <!-- weight -->
+        <span class="weight">
+            0.1 кг.
+        </span>
+        <!-- -->
+    </div>
+</div>
+
+<!-- -->
+<div class="item">
+
+    <!-- левая иконка -->
+    <div class="icon-l">
+        sale
+    </div>
+    <!-- Правая иконка -->
+    <div class="icons-r">
+
+        <div class="buy">
+            <i class="fas fa-cart-plus"></i>
+        </div>
+        <div class="heart">
+            <i class="far fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Картинка -->
+<div class="img">
+    <img src="img\cns.png" alt="">
+</div>
+
+<div class="inscription">
+    <!-- название продукта -->
+    <div class="name">DUKE`S FARM</div>
+    <!-- описаниие -->
+    <span class="info">
+        Корм для котят, утка,<br>
+        шпинат, конс.
+    </span>
+</div>
+
+
+    <!-- контейнер цены -->
+    <div class="cont-price">
+        <!-- price -->
+        <span class="price">
+            79 руб.
+        </span>
+        <!-- -->
+        <!-- weight -->
+        <span class="weight">
+            0.1 кг.
+        </span>
+        <!-- -->
+    </div>
+</div>
+<!-- -->
+<div class="item">
+
+    <!-- левая иконка -->
+    <div class="icon-l">
+        sale
+    </div>
+    <!-- Правая иконка -->
+    <div class="icons-r">
+
+        <div class="buy">
+            <i class="fas fa-cart-plus"></i>
+        </div>
+        <div class="heart">
+            <i class="far fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Картинка -->
+<div class="img">
+    <img src="img\cns.png" alt="">
+</div>
+
+<div class="inscription">
+    <!-- название продукта -->
+    <div class="name">DUKE`S FARM</div>
+    <!-- описаниие -->
+    <span class="info">
+        Корм для котят, утка,<br>
+        шпинат, конс.
+    </span>
+</div>
+
+
+    <!-- контейнер цены -->
+    <div class="cont-price">
+        <!-- price -->
+        <span class="price">
+            79 руб.
+        </span>
+        <!-- -->
+        <!-- weight -->
+        <span class="weight">
+            0.1 кг.
+        </span>
+        <!-- -->
+    </div>
+</div>
+<!-- -->
+<div class="item">
+
+    <!-- левая иконка -->
+    <div class="icon-l">
+        sale
+    </div>
+    <!-- Правая иконка -->
+    <div class="icons-r">
+
+        <div class="buy">
+            <i class="fas fa-cart-plus"></i>
+        </div>
+        <div class="heart">
+            <i class="far fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Картинка -->
+<div class="img">
+    <img src="img\cns.png" alt="">
+</div>
+
+<div class="inscription">
+    <!-- название продукта -->
+    <div class="name">DUKE`S FARM</div>
+    <!-- описаниие -->
+    <span class="info">
+        Корм для котят, утка,<br>
+        шпинат, конс.
+    </span>
+</div>
+
+
+    <!-- контейнер цены -->
+    <div class="cont-price">
+        <!-- price -->
+        <span class="price">
+            79 руб.
+        </span>
+        <!-- -->
+        <!-- weight -->
+        <span class="weight">
+            0.1 кг.
+        </span>
+        <!-- -->
+    </div>
+</div>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+<div class="container">
+<div class="description">
+    <img src="img\kitchen.png" alt="">
+    <!-- right -->
+        <div class="advertising">
+            <div class="sup-title">
+                Интернет-магазин
+            </div>
+            <h1 class="shop-title">
+                <span class="plu">Plu-shop</span><span class="ru">.ru</span>
+            </h1>
+            <p class="inform">
+                fskfslfksskfs;fsflfs;figcaptggggggggggggggggggggggggggggg<br>
+                fskfslfksskfs;fsflfs;figcaptgggggggggggggggggggggggggggggg<br>
+                fskfslfksskfs;fsflfs;figcapggggggggggggggggggggggggggggtionffffffffffffffffffffffffffffffff<br>
+                fskfslfksskfs;fsflfs;figcaption<br>
+                fskfslfksskfs;fsflfs;figcaptgggggggggggggggggggggggggggggggffffffffffffffffffffffffffffffffffffffff<br>
+                fskfslfksskfs;fsflfs;figcaption<br>
+                fskfslfksskfs;fsflfs;figcaptionigcapgggggggggggggggggggggggg<br>
+                fskfslfksskfs;fsflfs;figcaptgggggggggggggggggggggggggggggg<br>
+
+            </p>
+        </div>
+</div>
+</div>
+
+
+<div class="container">
+
+</div>
+<hr>
+<div class="footer">
+    <div class="contact">
+        <div class="logo">
+            <img src="img\232.png" alt="">
+        </div>
+        <!-- nth-child(2)-->
+        <div class="phone">
+            <span class="gray">8(800)</span> 555-22-00<br>
+            <span class="call-info">По всей России звонок бесплатно</span>
+        </div>
+
+        <div class="feedback">
+            <div class="callback">
+                Обратный звонок
+            </div>
+            <div class="number">
+                +7 900 ... <i class="fas fa-phone-volume"></i>
+            </div>
+        </div>
+<hr>
+        <div class="workTime">
+            <h2 class="work">Время работы</h2>
+            <div class="opening">
+                <span class="weekday">Пн-Пт: с 9:00 до 20:00<span>
+                <span class="Output">Сб-Вс: с 9:00 до 15:00</span>
+            </div>
+        </div>
+    </div>
+    <!-- right content -->
+    <div class="right-content">
+    <div class="buyers">
+        <h2 class="buy-title">
+            ПОКУПАТЕЛЯМ
+        </h2>
+
+        <div class="links">
+            <div class="link">Доска объявлений</div>
+            <div class="link">Консультация</div>
+            <div class="link">Обратная связь</div>
+            <div class="link">Дисконтная программа</div>
+            <div class="link">Доставка и оплата</div>
+            <div class="link">Акции</div>
+            <div class="link">Возврат товара</div>
+            <div class="link">Часто задаваемые вопросы</div>
+            <div class="link">Вопросы</div>
+            <div class="link">Статьи</div>
+        </div>
+    </div>
+
+    <div class="info-shop">
+        <h2 class="info-title">
+            О МАГАЗИНЕ
+        </h2>
+
+        <div class="links">
+            <div class="link">Вакансии</div>
+            <div class="link">Арендодателям</div>
+            <div class="link">Наши реквизиты</div>
+            <div class="link">Благотворительность</div>
+            <div class="link">Блог</div>
+            <div class="link">Отзывы</div>
+        </div>
+    </div>
+
+    <div class="catalog">
+        <h2 class="cat-title">
+            КАТАЛОГ
+        </h2>
+        <div class="links">
+            <div class="link">Для собак</div>
+            <div class="link">Для кошек</div>
+            <div class="link">Витаптека</div>
+            <div class="link">Для птиц</div>
+            <div class="link">Для грызунов</div>
+            <div class="link">Аквариумистика</div>
+            <div class="link">Акции</div>
+            <div class="link">Производство</div>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="footer-down">
+    <div class="container-footer">
+ <address class="address">
+    COPYRIGHT &copy;	2016 www.plu-shop.ru Интернет-магазин зоотоваров
+    </address>
+
+    <div class="soc-network">
+        <div class="vk">
+            <i class="fab fa-vk"></i>
+        </div>
+        <div class="fb">
+            <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="ins">
+            <i class="fab fa-instagram"></i>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+    </body>
+</html>
+
